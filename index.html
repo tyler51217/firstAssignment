@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+<html>
+    <link rel=stylesheet href="style.css"> 
+    <script src="javascript.js"></script>
+    <head>
+        
+        <div class="header">
+            
+            <div id=imgDiv>
+            </div>
+            
+            <div class="headerText">
+            
+                <div class="left">
+                    Wyler's Clothes
+                </div>
+                
+                <div class="nav">
+                    
+                </div>
+                
+                    <div class="right">
+                        
+                        <a>
+                            <input id="nav" type="text" placeholder="Search...">
+                            <button id="nav" type="submit">Search</button>
+                        </a>
+                        
+                        <a href="index.html" class="right">
+                            Home
+                        </a>
+                        
+                        <a href="index.html" class="right">
+                            Account
+                        </a>
+                        
+                        <a href="index.html" class="right1">
+                            Cart
+                        </a>
+
+                    </div>
+                
+            </div>
+            
+        </div>
+        
+    </head>
+        
+        
+        <body>
+            
+            <p id="smallImg">
+                <img id="simg" src="images/white.jpg">
+            </p>
+            
+            <p id="productName">
+                Plain T-Shirt, No Design, Casual Breathable Lightweight Design
+            </p>
+            
+            <div id="line">
+            </div>
+            
+            <div>
+                <h3>Price: USD $14.99</h3>
+            </div>
+            
+            <div class="left">
+                Size:
+                <select name="size" id="size">
+                    <option value="1">Small</option>
+                    <option value="2">Medium</option>
+                    <option value="3">Large</option>
+                    <option value="4">X-Large</option>
+                </select>
+                
+            </div>
+            
+            <div id="color-select">
+                Color:
+                <select name="colour" id="colour" onchange="myFunc(this.value);">
+                    <option value="1">White</option>
+                    <option value="2">Black</option>
+                    <option value="3">Blue</option>
+                    <option value="4">Orange</option>
+                    <option value="5">Red</option>
+                    <option value="6">Green</option>
+                </select>
+                
+            </div>
+            
+            <div id="cart-button">
+                <button onclick="addCart()">
+                    Add to Cart
+                </button>
+            </div>
+            
+            <div id="block" class="text">
+                <li>
+                    Wyler's Clothes is the only brand that sells products this nice. 
+                    The quality is among the highest in Canada. 
+                    You'll be satisfied or your money back, guarantee! 
+                    Other companies may attempt to copy our design so be careful when purchasing from Wyler's Clothes.
+                    <br><br>
+                </li>
+                
+                <li>
+                    Every shirt is hand woven by professional seamstresses using a cross-stitch technique.
+                    Be sure to always check the inside lining to ensure the quality of each shirt.
+                    Due to popular demand there have been many doppler's of Wyler's Clothes.
+                    <br><br>
+                </li>
+                
+                <li>
+                    The look and feel will leave you speechless when you try on one of Wyler's custom designed shirts.
+                    The fabric is 100% silk and will not lose it's color contrast in the washing machine.
+                    <br><br>
+                </li>
+                
+                <li>
+                    This great shirt has a stylish look and feel, great to buy one for yourself and for a friend.
+                    It comes in multiple sizes ranging from small to extra large. 
+                    It also comes in different colors including; white, black, blue, orange, red, and even green.
+                </li>
+            </div>
+            
+            
+            <div id="others">
+                Other products you may like
+            </div>
+            
+            <div id="line">
+            </div>
+            
+            <div id="center">
+                
+                <div id="otherImg">
+                <img id="icons" src="images/greenpants.jpg">
+                <a href="index.html">Posh Green Pants for Workroom Meetings <br>$29.99</a>
+                </div>
+            
+                <div id="otherImg">
+                    <img id="icons" src="images/purplepants.jpg">
+                    <a href="index.html">Elegant Purple Pants for Running Long Distances <br>$39.99</a>
+                </div>
+
+                <div id="otherImg">
+                    <img id="icons" src="images/redsweatpants.jpg">
+                    <a href="index.html">Fashionable Red Sweat Pants for Working Out <br>$29.99</a>
+                </div>
+
+                <div id="otherImg">
+                    <img id="icons" src="images/yellowpants.webp">
+                    <a href="index.html">Swanky Yellow Nike Pants for Looking Great <br>$99.99</a>
+                </div>
+
+                <div id="otherImg">
+                    <img id="icons" src="images/black2.jpg">
+                    <a href="index.html">Opulent Black Trousers for Relaxing and Staying Warm <br>$29.99</a>
+                </div>
+                
+            </div>
+            
+            <div id="line">
+            </div>
+            
+        </body>
+    
+    <div class="header">
+        <p id="footerText">&copy Wyler's Clothes 2020 - Web Design and Technologies Assignment 1</p>
+    </div>
+    
+</html>
